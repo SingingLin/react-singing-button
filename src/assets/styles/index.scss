@@ -1,0 +1,139 @@
+html {
+  font-size: 62.5%;
+}
+
+/*10 ÷ 16 × 100% = 62.5%*/
+/* 1.4rem × 10px = 14px 1.6rem × 10px = 16px */
+
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body,
+* {
+  font-family: "DINPro-Medium", "游ゴシック体", "Noto Sans Japanese",
+    "MS PGothic", Osaka, sans-serif;
+  letter-spacing: 2px;
+}
+
+// body.hidden {
+//     overflow: hidden;
+// }
+
+h2 {
+  font-family: "Georgia-bold-italic";
+  font-size: 9rem;
+  // font-weight: 800;
+  letter-spacing: 12px;
+}
+
+h3 {
+  font-size: 3rem;
+  letter-spacing: 3.5px;
+}
+
+h4 {
+  font-size: 2.3rem;
+  line-height: 2rem;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+h6 {
+  font-size: 3.1rem;
+  font-weight: 800;
+  /* letter-spacing: 4px; */
+}
+
+.font-xs {
+  font-size: 1.2rem;
+}
+
+.font-s {
+  font-size: 1.4rem !important;
+}
+
+.font-m {
+  font-size: 2rem;
+  /* color: #009944; */
+}
+
+.font-l {
+  font-size: 4.2rem;
+}
+
+.font-xl {
+  font-size: 16rem;
+  font-family: "Helvetica", "游ゴシック体", "Noto Sans Japanese",
+    "ヒラギノ角ゴ Pro W3", "メイリオ", "Hiragino Kaku Gothic ProN", "MS PGothic",
+    Osaka, "sans-serif";
+}
+
+.font-italic {
+  transform: skewX(-9deg);
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+// a {
+//     text-decoration: none;
+//     color: inherit;
+// }
+
+img {
+  width: 100%;
+}
+
+.d-table {
+  display: table;
+}
+
+.d-table-row {
+  display: table-row;
+  height: 45px;
+}
+
+.d-table-cell {
+  display: table-cell;
+  width: 300px;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-50 {
+  width: 47%;
+  display: inline-block;
+}
+
+.basic-container {
+  padding-left: 6.5vw;
+}
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 11%;
+  right: 2%;
+  width: 40px;
+  height: 40px;
+  background: #404040;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10000;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.scroll-top-btn.active {
+  opacity: 1;
+}

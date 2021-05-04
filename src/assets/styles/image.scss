@@ -1,0 +1,31 @@
+.image-container {
+  width: 200px;
+}
+
+.testJpegSrc {
+  background: url("@/src/assets/images/twnine.jpeg") center center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.testJpgSrc {
+  background: url("@/src/assets/images/redBg.jpg") center center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.testPngSrc {
+  background: url("@/src/assets/images/game1.png") center center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.testSvgSrc {
+  background: url("@/src/assets/images/smile.svg") center center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}

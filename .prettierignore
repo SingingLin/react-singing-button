@@ -1,0 +1,7 @@
+# VsCode project files
+.vscode
+
+# react-singing-button folder
+node_modules
+dist
+tsconfig.json
